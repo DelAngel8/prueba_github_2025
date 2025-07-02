@@ -1,0 +1,22 @@
+Matins@CIEF1476 MINGW64 ~/Desktop/prueba_vsc
+$ git config --global user.name "Robin Hood"
+
+Matins@CIEF1476 MINGW64 ~/Desktop/prueba_vsc
+$ git config --global user.email miemail@gmail.com
+
+Matins@CIEF1476 MINGW64 ~/Desktop/prueba_vsc
+$ git config --global core.editor "code --wait"
+
+Matins@CIEF1476 MINGW64 ~/Desktop/prueba_vsc
+$ git config --global -e
+
+Matins@CIEF1476 MINGW64 ~/Desktop/prueba_vsc
+$ git config --global core.autocrlf true (o input en Linux/MAC)
+
+git init
+
+creamos el .gitignore
+
+git add .
+
+git commit -m "texto descriptivo"
