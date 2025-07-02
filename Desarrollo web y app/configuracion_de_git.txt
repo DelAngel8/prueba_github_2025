@@ -1,3 +1,5 @@
+Configuración general de git, utilizar bash como terminal
+
 Matins@CIEF1476 MINGW64 ~/Desktop/prueba_vsc
 $ git config --global user.name "Robin Hood"
 
@@ -13,9 +15,16 @@ $ git config --global -e
 Matins@CIEF1476 MINGW64 ~/Desktop/prueba_vsc
 $ git config --global core.autocrlf true (o input en Linux/MAC)
 
+
+Para vincular git a un nuevo repositorio se utiliza una vez el siguiente comando:
+
 git init
 
+Si queremos ignorar algun documento del repositorio para no subirlo en la nube se crea el siguiente documento dentro del repositorio:
+
 creamos el .gitignore
+
+Dentro de ese documento se agregan los nombres de los documentos a ignorar
 
 git add .
 
