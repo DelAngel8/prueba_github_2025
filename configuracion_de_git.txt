@@ -20,3 +20,5 @@ creamos el .gitignore
 git add .
 
 git commit -m "texto descriptivo"
+
+git push -u origin main
